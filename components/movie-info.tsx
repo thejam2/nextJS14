@@ -1,7 +1,7 @@
 import { URL } from "../app/(home)/page";
 
 async function getMovie(id: string) {
-  await new Promise((resolve) => setTimeout(resolve, 1000));
+  //await new Promise((resolve) => setTimeout(resolve, 1000));
   const response = await fetch(`${URL}/${id}`);
   return response.json();
 }
