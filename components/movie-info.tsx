@@ -1,4 +1,4 @@
-import { URL } from "../app/(home)/page";
+import { URL } from "../app/constants";
 import potato from "../styles/movie-info.module.css";
 
 export async function getMovie(id: string) {
